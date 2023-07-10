@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* shared style start */
+.btn-primary {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #e55473;
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-primary:hover{
+  background: transparent;
+  outline: 1.5px solid #e55473;
+  color: #e55473;
+}
+
+.des-text-color{
+  color: rgba(39, 39, 39, 0.60);;
+}
+/* shared style end */
+
+/* hero section style start */
+.hero-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(229, 84, 115, 0.1);
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.hero-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/pngwing_10.png");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: right 10% bottom;
+  background-size: 33%;
+}
+
+.hero-content {
+  width: 600px;
+  height: fit-content;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #272727;
+}
+
+.hero-description{
+  margin: 25px 0;
+  text-align: justify;
+}
+/* hero section style end */
+
+/* featured section style start */
+
+/* featured section style end */
