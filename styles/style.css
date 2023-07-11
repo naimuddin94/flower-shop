@@ -1,9 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Lobster&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: "Lato", sans-serif;
 }
 
@@ -14,7 +17,7 @@
   background: #e55473;
   color: rgb(234, 234, 234);
   font-weight: 700;
-  border: none;
+  border: 0;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -37,6 +40,65 @@
 }
 
 /* shared style end */
+
+/* header style start */
+header {
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  background: rgba(229, 84, 115, 0.9);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px 10px 100px;
+  align-items: center;
+  z-index: 50;
+}
+
+.logo h2 {
+  font-family: "Lobster", cursive;
+  cursor: pointer;
+  background: -webkit-linear-gradient(70deg, #ffcb0d, #32eb73);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav{
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav > ul {
+  display: flex;
+  gap: 10px;
+}
+
+nav li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  z-index: 60;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+nav > ul:first-child > li > a{
+  padding: 8px 20px;
+}
+
+nav li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #41ff6a;
+}
+/* header style end */
 
 /* hero section style start */
 .hero-container {
