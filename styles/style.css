@@ -163,8 +163,8 @@ nav li a:hover {
   margin-top: 2rem;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
-  width: 19rem;
-  height: 22rem;
+  width: 33%;
+  height: 62vh;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -179,8 +179,8 @@ nav li a:hover {
   background-color: rgba(5, 151, 160, 0.15);
   background-image: url("../images/pngwing_5.png");
   background-repeat: no-repeat;
-  background-position: center 60%, center 60%;
-  background-size: 70%;
+  background-position: center 60%;
+  background-size: 80%;
 }
 
 .featured-img:nth-child(3) {
@@ -225,6 +225,7 @@ nav li a:hover {
   flex-direction: column;
   gap: 20px;
   width: 33%;
+  height: 35vh;
   align-items: center;
   justify-content: center;
   padding: 50px;
@@ -245,7 +246,7 @@ nav li a:hover {
 .hot-sale {
   margin-top: 5rem;
   width: 100vw;
-  height: 500px;
+  height: 70vh;
   background: rgba(229, 84, 115, 0.05);
   background-image: url("../images/pngwing_8.png");
   background-repeat: no-repeat;
